@@ -1,0 +1,166 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* General Styles */
+
+body {
+  background-color: #54a4f1;
+}
+
+p {
+  color: gray;
+  font-size: 1.4rem;
+}
+
+/* Navigation Bar */
+
+.logo {
+  display: block;
+  float: left;
+  margin: 2px 15px;
+}
+
+.navbar {
+  background-color: rgb(56, 41, 142);
+}
+
+nav > ul,
+nav > ul > li > ul {
+  list-style: none;
+}
+
+.navbar ul li {
+  color: white;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1.5rem 2.5rem;
+  position: relative;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li ul {
+  display: none;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  background-color: rgb(48, 120, 192);
+}
+
+.navbar ul li:hover ul {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 200px;
+  margin-top: 1.5rem;
+  /* background-color: rgb(56, 41, 142); */
+  background-color: rgb(56, 41, 142);
+}
+
+.navbar ul li:hover ul li {
+  display: block;
+}
+
+/* Header */
+
+.header-container {
+  background-color: white;
+  margin: 0.1rem 0 1.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.6);
+}
+
+.game-img {
+  background-image: url(./images/game.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  margin: 1.5rem 4rem 1.5rem 8rem;
+}
+
+.header-content {
+  /* align-items: center; */
+  /* align-self: center; */
+  width: 450px;
+  height: fit-content;
+  margin: 0 4rem;
+}
+
+h1 {
+  color: #54a4f1;
+  font-size: 3rem;
+}
+
+/* Main */
+
+.main-container {
+  background-color: rgb(56, 41, 142);
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 1.5rem 0;
+}
+
+.products-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.products-boxes {
+  background-color: white;
+  margin: 0.5rem 2rem;
+  padding: 0.7rem;
+  border-radius: 7px;
+}
+
+.img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img1 {
+  background-image: url(./images/img1.png);
+}
+
+.img2 {
+  background-image: url(./images/img2.png);
+}
+
+.img3 {
+  background-image: url(./images/img3.png);
+}
+
+/* Footer */
+
+.footer-container {
+  margin-top: 20px;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  background-color: rgb(56, 41, 142);
+}
