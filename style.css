@@ -133,6 +133,27 @@ h2 {
   border-radius: 7px;
 }
 
+.img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.img1 {
+  background-image: url(./images/img1.png);
+}
+
+.img2 {
+  background-image: url(./images/img2.png);
+}
+
+.img3 {
+  background-image: url(./images/img3.png);
+}
+
 /* Footer */
 
 .footer-container {
